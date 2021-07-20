@@ -6,6 +6,6 @@ This script reads all API services (endpoints) available within the Pokemon API 
 My approach was to save the endpoint data within a list and leverage Pandas to convert it to dataframe for easier manipulation. I then iterated over the list to access the count object and stored the results in a new dataframe.
 
 ## pikachu_evolutions.ipynb
-This script accesses heavely nested JSON objects - the species evolutions and their URLs. My approach was to locate the index of the specific evolution within the parent object and access the evolution and URL. Repeat this process for the next evolutions.
+This script accesses heavely nested JSON objects - the species evolution chain for Pikachu and its URLs. My approach was to locate the index of the specific evolution within the parent object and access the species object and URL. Repeat this process for the next evolutions.
 
 
